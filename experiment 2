@@ -1,0 +1,8 @@
+t=int(input("enter a number: "))
+s= int(input("enter a number: "))
+if (t>0) and (s!=t) and (t>s):
+    a=(s//3)
+    b=(t-(s+a))
+    print("student users : ",b)
+else:
+     print("invalid input")
